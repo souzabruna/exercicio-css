@@ -1,0 +1,66 @@
+.sectionPrimary{
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-image: url("https://goo.gl/L4tM5u");
+}
+.sectionOpacity{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: linear-gradient(rgba(208,14,32,0.29), rgba(255,0,200,0.23), rgba(0,0,0,0.9));
+}
+.navbar{
+  width: 100%;
+  height: 20%;
+  font-size: 3.5em;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  color:rgba(255,255,255,1);
+}
+.boxContent{
+  width: 100%;
+  height: 80%;
+}
+
+.lineAnimals{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1%;
+}
+.animals{
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image{
+  width: 30%;
+  height: 40%;
+  border-radius: 100%;
+  background-color: blue;
+  margin: 2%;
+  background-image: url('gato1.png');
+  background-size: 100%;
+}
+
+.text{
+  width: 90%;
+  height: 60%;
+  text-align: center;
+  color: rgba(255,255,255,1);
+  font-size: 1.1em;
+  font-family: cursive;
+}
